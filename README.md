@@ -3,4 +3,4 @@ This is a basic layout of a ToDo List without major functionalities and only pur
 
 ## Look here!
 
-You can access the file from [file:///C:/Users/ISH%20KAPOOR/Desktop/ToDoApp/Todo/To%20Do%20Stylish/index.html] .
+Copy this link to access the file: file:///C:/Users/ISH%20KAPOOR/Desktop/ToDoApp/Todo/To%20Do%20Stylish/index.html
