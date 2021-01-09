@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #f2f2f2;
+    box-sizing: border-box;
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1b1b1b;
+    border-radius: 5px;
+}
+
+.center .button {
+    width: 350px;
+    background: #1b1b1b;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.button .text {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button .icon {
+    font-size: 30px;
+    float: right;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.center .field {
+    height: 45px;
+    width: 350px;
+    background: #f2f2f2;
+    position: relative;
+}
+
+.field input {
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    font-size: 18px;
+    outline: none;
+    background: none;
+    color: #202020;
+    border: 2px solid #1b1b1b;
+}
+
+.field .add-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: #1b1b1b;
+    font-size: 17px;
+    border-radius: 3px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+ul li {
+    height: 45px;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 45px;
+    background: #262626;
+}
+
+ul li:nth-child(2n) {
+    background: #1b1b1b;
+}
+
+ul li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+ul li:last-child span {
+    border-radius: 0 5px 5px 5px;
+}
+
+ul li span {
+    margin-right: 25px;
+    height: 45px;
+    width: 45px;
+    margin-left: -45px;
+    background: #e74c3c;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: 0.5s ease;
+}
+
+ul li:hover span {
+    margin-left: 0px;
+}
